@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/cc/slamWorkspace/MSCKF-ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/cc/slamWorkspace/MSCKF-ws/src/MSCKF_vio-CC_Comments/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

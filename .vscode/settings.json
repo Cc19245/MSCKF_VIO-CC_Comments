@@ -1,0 +1,90 @@
+{
+    "ros.distro": "melodic",
+    "files.associations": {
+        "*.ipp": "cpp",
+        "array": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "string": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "string_view": "cpp",
+        "initializer_list": "cpp",
+        "*.tcc": "cpp"
+    },
+    "cmake.configureOnOpen": false,
+    "python.autoComplete.extraPaths": [
+        "/home/cc/slamWorkspace/MSCKF-ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/cc/slamWorkspace/MSCKF-ws/devel/lib/python2.7/dist-packages",
+        "/opt/ros/melodic/lib/python2.7/dist-packages"
+    ],
+    "doxdocgen.generic.paramTemplate": "@param[in] {param} ",
+	"todo-tree.highlights.defaultHighlight": {
+	"icon": "alert",
+	"type": "text",
+	// "foreground": "red",
+	"iconColour": "green"
+	},
+	"todo-tree.general.tags": [
+	"//TODO",
+	"?",
+	"!",
+	" Step ",
+	"//;",    // comments by CC
+    "#;",    // comments by CC
+	"//Done"  // already read done
+	],
+	"todo-tree.highlights.customHighlight": {
+	"//TODO":{
+		"background": "#a010109f",
+		"foreground": "#cecaca",
+		"icon": "check",
+		// "rulerColour": "yellow",
+		"iconColour": "yellow"   // 在左侧的todo tree查看的时候有对应的图标，这个图标只有特定的几种，所以名字也是确定的
+	},
+	"//Done": {
+	// 关于配色的色号：http://xh.5156edu.com/page/z1015m9220j18754.html
+	// 这个色号叫做html颜色代码，注意写颜色代码的时候一定别忘了前面的 # 
+	"foreground": "#FF4500",     // 前景色，就是字体的颜色
+	"iconColour": "#FF4500",    // 图标的颜色
+	"type": "text-and-comment",  
+	},
+	"//;": {
+	"foreground": "#DAA520",
+	"iconColour": "#FFA500",
+	"type": "text-and-comment",
+	},
+    "#;": {
+        "foreground": "#DAA520",
+        "iconColour": "#FFA500",
+        "type": "text-and-comment",
+        },
+	" Step ": {
+	"foreground": "#7CFC00",
+	"iconColour": "#7CFC00",
+	"type": "text-and-comment",
+	"hideFromTree": true
+	},
+	"?": {
+	"foreground": "#35ee35",
+	"icon": "beaker",
+	"iconColour": "#35ee35",
+	"type": "text-and-comment"
+	},
+	"!": {
+	"foreground": "red",
+	"icon": "issue-opened",
+	"iconColour": "red",
+	"type": "text-and-comment"
+	}
+	},
+	"todo-tree.general.revealBehaviour": "highlight todo",
+	"todo-tree.tree.showCountsInTree": true,
+	"todo-tree.filtering.excludeGlobs":[
+	"**/*.txt",
+	"**/*.md"
+	]
+}
